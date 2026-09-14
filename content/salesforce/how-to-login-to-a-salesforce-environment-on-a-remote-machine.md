@@ -1,5 +1,7 @@
 ---
 title: How to Log In to a Salesforce Environment on a Remote VPS
+tags:
+  - salesforce
 ---
 
 To authenticate a VPS without a browser:
@@ -63,3 +65,7 @@ rm auth-url.txt
 ```
 
 To verify the connection was successful, run `sf org list` on your VPS to ensure `my-sandbox` shows up as connected.
+
+## Related
+
+- [[how-to-get-the-salesforce-consumer-key-for-a-developer-sandbox]]
